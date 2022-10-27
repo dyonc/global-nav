@@ -1,6 +1,6 @@
 {
   "name": "@dyonic/global-nav",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A script and stylesheet that displays the Dyonic global nav across the top of a site",
   "main": "dist/module.js",
   "iife": "dist/global-nav.js",
