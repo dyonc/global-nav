@@ -888,16 +888,6 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@canonical/cookie-policy@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@canonical/cookie-policy/-/cookie-policy-3.4.0.tgz#0d6708da340df5867fd2cc9dbd95538c46f20cf8"
-  integrity sha512-cdVqxQmGu+j+Q86UobihWWVFzGzHlekFeMFxlbRpm+yqxEOUCrLkA9/t/RsMfLNDToP2ECPgsMbS20aPlA2tIg==
-
-"@canonical/latest-news@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@canonical/latest-news/-/latest-news-1.4.1.tgz#dcdd445ac2268a54cf60f2f8c725b6bdeb285d71"
-  integrity sha512-lwrikCj0Y11X8Ln8D+elp6Ri3mYjMjsAOJtadNEFzhBrgmg8TVGYJjOdwy8TvRaxy7fHnvVajIKAYWX44Tfj6w==
-
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.5.tgz#33f1b838dbf1f923bfa517e008362b78ddbbf318"
@@ -4438,8 +4428,8 @@ vanilla-framework@3.8.0:
   resolved "https://registry.yarnpkg.com/vanilla-framework/-/vanilla-framework-3.8.0.tgz#7fe17cad5be598fda59659472d8e22b721614391"
   integrity sha512-WDbROdn3HyL5BQ5nwkG89WULrIWYX8LiIhxgOUxITLcEXfBPw3hEGwnWbqlpcz9uN5sMS/7n9xOUt1LfTq6+KA==
   dependencies:
-    "@canonical/cookie-policy" "3.4.0"
-    "@canonical/latest-news" "1.4.1"
+    "@dyonic/cookie-policy" "1.0.1"
+    "@dyonic/latest-news" "1.0.1"
     autoprefixer "10.4.8"
     postcss "8.4.14"
     postcss-cli "9.1.0"
