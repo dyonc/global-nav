@@ -1,0 +1,51 @@
+{
+  "name": "@dyonc/global-nav",
+  "version": "1.0.1",
+  "description": "A script and stylesheet that displays the Dyonic global nav across the top of a site",
+  "main": "dist/module.js",
+  "iife": "dist/global-nav.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "serve": "http-server -p 8300",
+    "test": "yarn run lint",
+    "lint": "yarn sass-lint src/**/*.scss -v && yarn eslint src/js && prettier **/* --check",
+    "prepublishonly": "npm run build",
+    "watch": "rollup -c -w",
+    "clean": "rm -rf node_modules && rm -rf dist",
+    "start": "yarn run build && yarn run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyonc/global-nav.git"
+  },
+  "author": "Dyonic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyonc/global-nav/issues"
+  },
+  "homepage": "https://github.com/dyonc/global-nav#readme",
+  "devDependencies": {
+    "@babel/core": "7.16.7",
+    "@babel/preset-env": "7.16.7",
+    "autoprefixer": "10.4.1",
+    "cssnano": "5.0.14",
+    "eslint": "8.6.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "http-server": "^0.11.1i",
+    "postcss": "8.4.5",
+    "prettier": "2.5.1",
+    "pretty-quick": "3.1.3",
+    "rollup": "2.63.0",
+    "rollup-plugin-babel": "4.4.0",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-sass": "1.2.10",
+    "rollup-plugin-terser": "7.0.2",
+    "sass-lint": "1.13.1"
+  },
+  "dependencies": {
+    "vanilla-framework": "3.8.0"
+  }
+}
