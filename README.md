@@ -131,6 +131,6 @@ npm version [patch|minor|major]
 
 This will trigger the `prepublishonly` script which will ensure requisite artefacts are built before publishing.
 
-Code licensed LGPLv3 by Dyonic Ltd.
+Code licensed LGPLv3 by Dyonic LTD.
 
 With ♥ from Dyonic
