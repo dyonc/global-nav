@@ -13,14 +13,14 @@ The styles will automatically be injected into the page's `<head>`.
 1. Install via yarn or npm
 
 ```bash
-yarn add @dyonc/global-nav
+yarn add @dyonic/global-nav
 
 ```
 
 ...or...
 
 ```bash
-npm install @dyonc/global-nav --save
+npm install @dyonic/global-nav --save
 ```
 
 2. You can then install the library either by directly linking to it or via ES6 imports.
@@ -28,7 +28,7 @@ npm install @dyonc/global-nav --save
 To consume the library directly, add a link to the JS file containing an [IIFE](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) and run the `dyonicGlobalNav.createNav()` function;
 
 ```html
-<script src="/node_modules/@dyonc/global-nav/dist/iife.js"></script>
+<script src="/node_modules/@dyonic/global-nav/dist/iife.js"></script>
 <script>
   dyonicGlobalNav.createNav();
 </script>
@@ -37,7 +37,7 @@ To consume the library directly, add a link to the JS file containing an [IIFE](
 To import it, simply call it from your site-wide JS file;
 
 ```js
-import { createNav } from '@dyonc/global-nav';
+import { createNav } from '@dyonic/global-nav';
 createNav();
 ```
 
@@ -54,7 +54,7 @@ If the `$breakpoint-navigation-threshold` Vanilla variable is overridden in your
 For example, to set the `breakpoint` to `1036`:
 
 ```html
-<script src="/node_modules/@dyonc/global-nav/dist/index.js"></script>
+<script src="/node_modules/@dyonic/global-nav/dist/index.js"></script>
 
 <script>
   dyonicGlobalNav.createNav({ breakpoint: 1036 });
@@ -64,7 +64,7 @@ For example, to set the `breakpoint` to `1036`:
 If you're importing;
 
 ```js
-import { createNav } from '@dyonc/global-nav';
+import { createNav } from '@dyonic/global-nav';
 createNav({ breakpoint: 1036 });
 ```
 
