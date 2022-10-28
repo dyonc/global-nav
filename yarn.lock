@@ -888,6 +888,30 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@dyonic/cookie-policy@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@dyonic/cookie-policy/-/cookie-policy-1.0.3.tgz#8d99b091d84516a2af71f20954c48df7dafb1e83"
+  integrity sha512-HY6PxxAvXgm0xMajHyu0yZ2jc738bCO5n95JYi7opHZ6DKchyXC2NGXXrmzeFH6JFphcwJ8wK1L7hhWWj65r7w==
+
+"@dyonic/latest-news@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dyonic/latest-news/-/latest-news-1.0.1.tgz#05ae3f5ac15689bd81d53ad5d9dc382fef9ade24"
+  integrity sha512-OQB08p+RUZXuTJTwlmZtwyIVzqUhb9vlGkgxhLsJMKFyHg8jsQPJDogdDxqxsePjcMYxLV5wHMGI9kVMLgznqw==
+
+"@dyonic/vanilla-framework@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@dyonic/vanilla-framework/-/vanilla-framework-1.0.3.tgz#3b4b9608e67e0f511a961d1ef3d59fb5d347aa66"
+  integrity sha512-K8k7e5A2jgW6lCFSWRBmv/lvet/qJtpLMwbaieJ8mGFTChpP3zzrZO84cHppWAv34y+LM2dghRLY2Jcs69hjOg==
+  dependencies:
+    "@dyonic/cookie-policy" "1.0.3"
+    "@dyonic/latest-news" "1.0.1"
+    autoprefixer "10.4.8"
+    postcss "8.4.14"
+    postcss-cli "9.1.0"
+    postcss-scss "4.0.4"
+    sass "1.54.0"
+    yaml "1.10.2"
+
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.5.tgz#33f1b838dbf1f923bfa517e008362b78ddbbf318"
@@ -4422,20 +4446,6 @@ v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
-
-vanilla-framework@3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/vanilla-framework/-/vanilla-framework-3.8.0.tgz#7fe17cad5be598fda59659472d8e22b721614391"
-  integrity sha512-WDbROdn3HyL5BQ5nwkG89WULrIWYX8LiIhxgOUxITLcEXfBPw3hEGwnWbqlpcz9uN5sMS/7n9xOUt1LfTq6+KA==
-  dependencies:
-    "@dyonic/cookie-policy" "1.0.2"
-    "@dyonic/latest-news" "1.0.1"
-    autoprefixer "10.4.8"
-    postcss "8.4.14"
-    postcss-cli "9.1.0"
-    postcss-scss "4.0.4"
-    sass "1.54.0"
-    yaml "1.10.2"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"

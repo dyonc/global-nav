@@ -1,6 +1,6 @@
 {
   "name": "@dyonic/global-nav",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A script and stylesheet that displays the Dyonic global nav across the top of a site",
   "main": "dist/module.js",
   "iife": "dist/global-nav.js",
@@ -46,6 +46,6 @@
     "sass-lint": "1.13.1"
   },
   "dependencies": {
-    "vanilla-framework": "3.8.0"
+    "@dyonic/vanilla-framework": "1.0.3"
   }
 }

@@ -1,12 +1,12 @@
-@import 'node_modules/vanilla-framework/scss/settings_spacing';
-@import 'node_modules/vanilla-framework/scss/base_icon-definitions';
-@import 'node_modules/vanilla-framework/scss/base_placeholders';
-@import 'node_modules/vanilla-framework/scss/base_typography';
-@import 'node_modules/vanilla-framework/scss/patterns_icons';
-@import 'node_modules/vanilla-framework/scss/utilities_animations';
-@import 'node_modules/vanilla-framework/scss/utilities_hide';
-@import 'node_modules/vanilla-framework/scss/utilities_margin-collapse';
-@import 'node_modules/vanilla-framework/scss/utilities_padding-collapse';
+@import 'node_modules/@dyonic/vanilla-framework/scss/settings_spacing';
+@import 'node_modules/@dyonic/vanilla-framework/scss/base_icon-definitions';
+@import 'node_modules/@dyonic/vanilla-framework/scss/base_placeholders';
+@import 'node_modules/@dyonic/vanilla-framework/scss/base_typography';
+@import 'node_modules/@dyonic/vanilla-framework/scss/patterns_icons';
+@import 'node_modules/@dyonic/vanilla-framework/scss/utilities_animations';
+@import 'node_modules/@dyonic/vanilla-framework/scss/utilities_hide';
+@import 'node_modules/@dyonic/vanilla-framework/scss/utilities_margin-collapse';
+@import 'node_modules/@dyonic/vanilla-framework/scss/utilities_padding-collapse';
 
 $global-nav-breakpoint: 619px;
 $global-nav-bg-color: #262626;
